@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pccma.PraiseTeam.Database.Contracts", "Pccma.PraiseTeam.Database.Contracts\Pccma.PraiseTeam.Database.Contracts.csproj", "{E4DA28FA-FFD3-458E-A323-D0AB9466076D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{35FD127F-387A-4E08-8C4B-AAFBE9E33A90} = {35FD127F-387A-4E08-8C4B-AAFBE9E33A90}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pccma.PraiseTeam.Database.DataAccess", "Pccma.PraiseTeam.Database.DataAccess\Pccma.PraiseTeam.Database.DataAccess.csproj", "{B50E6827-71BE-4AAE-A4D1-B86C4BEEE10C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pccma.PraiseTeam.Database.Model", "Pccma.PraiseTeam.Database.Model\Pccma.PraiseTeam.Database.Model.csproj", "{35FD127F-387A-4E08-8C4B-AAFBE9E33A90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4DA28FA-FFD3-458E-A323-D0AB9466076D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4DA28FA-FFD3-458E-A323-D0AB9466076D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4DA28FA-FFD3-458E-A323-D0AB9466076D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4DA28FA-FFD3-458E-A323-D0AB9466076D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B50E6827-71BE-4AAE-A4D1-B86C4BEEE10C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B50E6827-71BE-4AAE-A4D1-B86C4BEEE10C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B50E6827-71BE-4AAE-A4D1-B86C4BEEE10C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B50E6827-71BE-4AAE-A4D1-B86C4BEEE10C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35FD127F-387A-4E08-8C4B-AAFBE9E33A90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35FD127F-387A-4E08-8C4B-AAFBE9E33A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35FD127F-387A-4E08-8C4B-AAFBE9E33A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35FD127F-387A-4E08-8C4B-AAFBE9E33A90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
